@@ -1,0 +1,179 @@
+
+.login{
+    width: 100%;
+    height: 460px;
+    position: relative;
+    background: url(../images/login-img/login_bg.jpg)
+}
+.login>form{
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    right: 515px;
+    top: 45px;
+    background: #fff;
+    height: 300px;
+    overflow: hidden;
+    color: #9b9b9b;
+}
+.login>form h4{
+    line-height: 40px;
+    float: left;
+}
+.login>form input{
+    width: 262px;
+    height: 31px;
+    margin-bottom: 10px;
+    border: solid 1px #DCDCDC;
+}
+.login>form input:nth-of-type(1){
+    cursor: auto;
+    text-indent: 24px;
+    background: url(../images/login-img/username.gif) no-repeat left center;
+}
+.login>form input:nth-of-type(2){
+    text-indent: 24px;
+    background: url(../images/login-img/password.gif) no-repeat left center;
+}
+.login>form input:nth-of-type(3){
+    width: 260px;
+    height: 33px;
+    background: linear-gradient(to bottom,#E0765F,#B71F1E);
+    color: #fff;
+    margin: 40px 0 20px 10px;
+    border-radius: 10px;
+}
+.other{
+    /* width: 100px; */
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px
+}
+.other a:nth-child(1){
+    width: 30px;
+    height: 30px;
+    transform: translateY(10px);
+    margin-right: 10px;
+    display: inline-block;
+    background: url(../images/login-img/un_login_third.png) no-repeat -35px 0;
+}
+.other a:nth-child(1):hover{
+    background: url(../images/login-img/un_login_third.png) no-repeat -35px -33px;
+}
+.other a:nth-child(2){
+    display: inline-block;
+    width: 30px;
+    transform: translateY(10px);
+    height: 30px;
+    background: url(../images/login-img/un_login_third.png) no-repeat -105px 0;
+}
+.other a:nth-child(2):hover{
+    background: url(../images/login-img/un_login_third.png) no-repeat -105px -33px;
+}
+
+.registered{
+    display: none;
+    border: 3px solid #dcdcdc;
+    z-index: 998;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    top: 13px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 440px;
+    width: 940px;
+}
+.registered .close{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center
+}
+.registered .close:hover{
+    background: red
+}
+.registered-left{
+    width: 350px;
+    float: left;
+    height: 400px;
+    padding: 45px 80px 0px 120px;
+    border-right: solid 1px #DCDCDC;
+}
+.registered-left form{
+    width: 100%;
+    height: 100%;
+}
+.registered-left form h4{
+    color: #727272;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px
+}
+.registered-left form p{
+    height: 44px;
+    padding-left: 16px;
+    font-size: 12px;
+    color: #A8A8C5;
+    line-height: 44px
+}
+.registered-left form p span{
+    color: red
+}
+.registered-left form p input{
+    line-height: 30px;
+    width: 220px;
+    background: #fff;
+    margin-left: 10px;
+    border: 1px solid #ddd;
+    text-indent: 6px;
+    color: #444;
+}
+.registered-left form p:nth-of-type(5) input{
+    width: 102px;
+    height: 26px;
+    background: #F5F5F5;
+    border-radius: 5px
+}
+.registered .registered-left form>input{
+    background: -webkit-gradient(linear, left top, left bottom, from(#E17860), to(#B61D1D));
+    font-family: "微软雅黑";
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    width: 220px;
+    height: 33px;
+    margin: 20px 0 0 90px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.registered-right{
+    width: 268px;
+    float: right;
+    height: 388px;
+    padding: 55px 60px 0px 60px 
+}
+.registered-right p{
+    font-size: 12px;
+    color: #666666;
+}
+.registered-right input{
+    background: -webkit-gradient(linear, left top, left bottom, from(#E17860), to(#B61D1D));
+    font-family: "微软雅黑";
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    width: 268px;
+    height: 33px;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: bold;
+}
+.registered .close{
+    position: absolute;
+    right: 15px;
+    font-size: 34px;
+    top: 5px;
+    cursor: pointer;
+}

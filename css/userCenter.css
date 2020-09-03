@@ -1,0 +1,226 @@
+
+.userCenter{
+    width: 100%;
+    border: solid 2px #DDDDDD;
+}
+.userCenter-center{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    background: #fff
+}
+.userCenter-center-center{
+    width: 1170px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: #FFF;
+}
+.histery{
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+    background: #F4F4F4;
+}
+.histery a:hover{
+    color: #C81623;
+}
+.userinfo{
+    overflow: hidden;
+}
+.userinfo_left{
+    float: left;
+}
+.userinfo_left img{
+    width: 154px;
+    height: 154px;
+    margin-left: 10px
+}
+.userinfo_right{
+    width: 607px;
+    height: 176px;
+    display: block;
+    background: url(../images/userCenter/topbg.png) no-repeat 0 0;
+    float: left;
+}
+.userinfo_right .txt{
+    margin: 32px 120px;
+    font-size: 12px
+}
+.userinfo_right .txt span{
+    font-size: 30px;
+}
+.user_left{
+    width: 255px;
+    float: left;
+    padding-right: 14px;
+    margin-top: 5px;
+}
+.user_left_top{
+    color: #000;
+    padding: 8px 26px 20px;
+    background: #EF997F;
+    border-radius: 12px;
+}
+.user_left_top_icon{
+    top: -25px;
+    position: relative;
+}
+.user_left_top p{
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+}
+.user_left_top table tr td{
+    width: 72px;
+    height: 26px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff
+}
+.user_left_top table tr:nth-child(2) td{
+    color: rgb(204, 9, 9);
+    font-weight: 600;
+}
+.user_left_top .my-expr{
+    margin: 5px 0px 10px;
+    color: #F5DEB3;
+    background: url(../images/userCenter/icon_tree.png) no-repeat 0 0;
+    padding-left: 20px;
+    line-height: 18px;
+    font-size: 12px;
+    height: 22px;
+    overflow: hidden;
+}
+.user_left_top .my-expr .bar{
+    background: #fff;
+    border: 1px solid #fff;
+    display: block;
+    float: left;
+    width: 110px;
+    height: 15px;
+    position: relative;
+    margin: 0px 6px;
+    color: #333;
+    overflow: hidden;
+    font-weight: normal;
+}
+.user_left_top .my-expr .bar b{
+    position: absolute;
+    text-align: center;
+    z-index: 20;
+    width: 110px;
+    line-height: 15px;
+    font-weight: normal;
+    color: #333;
+}
+.my-expr .bar em{
+    position: absolute;
+    text-align: center;
+    background: #a0b117;
+    height: 15px;
+}
+.user_left_top .my-xf {
+    margin: 5px 0px;
+    font-size: 12px;
+    border-radius: 6px;
+    background: #fff;
+    color: #a6a6a6;
+    padding: 9px 13px;
+}
+.user_left_content{
+    margin-top: 30px;
+    padding: 8px 0px 20px;
+    border-radius: 12px;
+    background: url(../images/userCenter/left-menu_bg.gif) repeat-x #fff;
+    border: 1px solid #f2f0ea;
+}
+.user_left_content_title{
+    top: -25px;
+    position: relative;
+    height: 15px;
+    padding-left: 25px;
+}
+.user_left_content table{
+    width:100%;
+    margin:10px 14px 45px
+}
+.user_left_content table th{
+    font-weight:bold;
+    font-size:12px;
+    color:#656565;
+    text-align:left;
+    padding:4px
+}
+.user_left_content table .icon_gift1{
+    background:url(../images/userCenter/icon_gift1.png) 0px 0px no-repeat;padding-left:25px;
+    font-size: 12px;
+    width:120px;
+}
+.user_left_content table .icon_tree1{
+    background:url(../images/userCenter/icon_tree1.png) 0px 0px no-repeat;padding-left:25px;
+    font-size: 12px;
+    width:90px;
+}
+.user_left_content table td,.my-leftmenu-table td li{
+    font-weight: normal;
+    font-size:12px;
+    color:#444;
+    text-align:left;
+    padding:4px;
+    vertical-align: top;
+}
+.user_left_content table td ul li{
+    padding-left:14px;
+    background:url(../images/userCenter/icon_title.png) 0px 9px no-repeat;line-height:24px;
+}
+.user_left_content-item1{
+    border-bottom: 1px solid #f9f3ed;
+    padding: 5px 25px 15px;
+    width: 203px;
+    height: 140px;
+}
+.user_left_content-item1 h6{
+    text-indent: 30px;
+    color: #656565;
+    height: 40px;
+    line-height: 40px;
+    background: url(../images/userCenter/my-leftmenuInner_bg.png) no-repeat left center;
+}
+.user_left_content-item1 ul li{
+    height: 25px;
+    font-size: 12px;
+    text-indent: 25px;
+    line-height: 25px;
+    background: url(../images/userCenter/icon_title.png) 0px -40px no-repeat;
+}
+.user_right{
+    width: 870px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    float: right;
+    font-size: 12px;
+}
+.user-home{padding: 0px 0px 20px;border-radius: 12px;border:1px solid #f2f0ea}
+
+.user-home-box{padding:20px 40px 0px;clear:both;overflow:auto}
+.user-home-box .moduletitle a.more{float:right;color:#C40000;margin-top:10px}
+.tabletypeA table{border:1px solid #e1e1e1;background:url(../images/userCenter/titbg.gif) repeat-x;}
+.tabletypeA th{color:#444444;text-align:center;font-weight:normal;border-bottom:1px solid #e1e1e1;padding:9px 0px;}
+.tabletypeA td{color:#787878;text-align:center;font-weight:normal;border-right:1px solid #e1e1e1;padding:9px 0px}
+.tabletypeA  .date{color:#b7b7b7}
+.tabletypeA .order{color:#a5b517}
+.tabletypeB table{width:100%}
+.tabletypeB td{color:#484848;border:1px solid #e5e5e5;width:33%}
+.tabletypeB .ov{text-align:center;padding:15px 0px 8px}
+.tabletypeB p{color:#484848}
+.tabletypeB td:hover{border:1px solid #C40000!important}
+.tabletypeB td:hover div.tableinbox{border:1px solid #C40000;padding:20px 7px 8px 7px;border-left:2px solid #C40000;}
+.tabletypeB td:first-child:hover div.tableinbox{ border-left: 1px solid #C40000;}
+.tabletypeB td div.tableinbox{padding:21px 9px 9px 9px;}
+.tabletypeB .hyp span{color:#ffa128;font-size:14px}
+.tabletypeB .hyp b{font-size:18px;margin-right:5px}
+.tabletypeB p{line-height:24px;height:24px;overflow:hidden;padding-left:10px}
+.tabletypeB .market{color:#a2a2a2}
+.tabletypeB .pdname a,.green{color:#B51817;}

@@ -1,0 +1,255 @@
+.shop_char{
+    width: 100%;
+    background: #F4F4F4;
+}
+.shop_char_top{
+    width: 100%;
+    height: 106px;
+    background: #fff;
+}
+.shop_char_top img{
+    float: right;
+    margin:30px 355px 20px 0;
+}
+.shop_char_main{
+    margin: 20px auto;
+    width: 1200px;
+}
+.Myshopcart{
+    background: #c01a20;
+    width: 120px;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
+    font-family: "微软雅黑";
+    margin-bottom: 10px;
+}
+.shopcart_content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.shopcart_content_box1 table{
+    background: #fff;
+    font-size: 12px;
+}
+.shopcart_content_box1 table tr:nth-child(1){
+    height: 40px;
+    text-align: center;
+}
+.shopcart_content_box1 table tr:nth-child(1) td, .shopcart_content_box1 table tr:nth-child(2) td{
+    border-bottom: 1px solid #DCDCDC;
+}
+.shopcart_content_box1 tr:nth-child(2){
+    height: 107px;
+    text-align: center;
+    border-bottom: 1px solid #DCDCDC;
+}
+.shopcart_content_box1 tr:nth-child(2) td:nth-child(2){
+    text-align: left;
+    color: #787878;
+}
+.shopcart_content_box1 tr:nth-child(2) td:nth-child(2) img{
+    width: 74px;
+    height: 74px;
+    border: 1px solid #dcdcdc;
+    margin-right: 10px;
+    float: left;
+}
+.shopcart_content_box1 tr:nth-child(2) td:nth-child(2) a{
+    color: #787878;
+}
+.shopcart_content_box1 tr:nth-child(2) td:nth-child(2) a:hover{
+    text-decoration: underline;
+    color: #c01a20;
+}
+.shopcart_content_box1 tr td:nth-child(1){
+    width: 63px;
+}
+.shopcart_content_box1 tr td:nth-child(2){
+    width: 730px;
+}
+.shopcart_content_box1 tr td:nth-child(3), .shopcart_content_box1 tr td:nth-child(4), .shopcart_content_box1 tr td:nth-child(5){
+    width: 92px;
+}
+.shopcart_content_box1 tr td:nth-child(6){
+    width: 74px;
+}
+.shopcart_content_box1 tr td:nth-child(7){
+    width: 53px;
+}
+.shopcart_content_box1 tr:nth-child(2) td:nth-child(5) span{
+    width: 15px;
+    height: 32px;
+    display: inline-block;
+    line-height: 32px;
+    border: 1px solid #DCDCDC;
+}
+.shopcart_content_box1 tr:nth-child(2) td:nth-child(5) input{
+    color: #666;
+    float: left;
+    width: 49px;
+    height: 32px;
+    border: 1px solid #dcdcdc;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    line-height: 32px;
+}
+.shopcart_content_box1_opera{
+    width: 1190px;
+    height: 83px;
+    padding: 15px 5px;
+    background: #fff;
+}
+.shopcart_content_box1_opera p{
+    display: flex;
+    height: 18px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 8px;
+}
+.shopcart_content_box1_opera p input{
+    vertical-align: middle;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.shopcart_content_box1_opera p a{
+    color: #444444;
+    padding-left: 12px;
+    margin-left: 48px;
+    background: url(../images/shopChar/del.jpg) no-repeat left;
+    float: left;
+}
+.tj{
+    width: 1185px;
+    height: 49px;
+    text-align: right;
+    line-height: 24px;
+    padding-right: 5px;
+    margin: 8px 0px 6px 0px;
+    color: #444444;
+}
+.tj>div{
+    font-size: 12px;
+}
+.tj>div>span{
+    color: #c01a20;
+    font-weight: 600;
+    font-size: 16px;
+}
+.tj>div>p{
+    float: left;
+    margin-left: 25px;
+}
+.allPrice{
+    width: 1200px;
+    height: 125px;
+    background: #F7F7F7;
+}
+.allPrice p:nth-child(1){
+    line-height: 80px;
+    height: 80px;
+    font-size: 12px;
+    text-align: right;
+}
+.allPrice p:nth-child(1) span{
+    color: #c01a20;
+    font-size: 28px;
+}
+.allPrice p:nth-child(2){
+    font-size: 12px;
+    text-align: right;
+    color: #727272;
+}
+.settlement{
+    width: 1160px;
+    height: 88px;
+    background: #fff;
+    padding: 0 20px;
+    border-bottom: 1px solid #F4F4F4;
+}
+.settlement>div{
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.settlement>div p:nth-child(1){
+    width: 96px;
+    height: 37px;
+    line-height: 37px;
+    border: 1px solid #C01A20;
+    text-align: center;
+}
+.settlement>div p:nth-child(2){
+    width: 130px;
+    float: right;
+    height: 37px;
+    line-height: 37px;
+    background: #C01A20;
+    text-align: center;
+}
+.shopcart_content_box2{
+    width: 1160px;
+    height: 406px;
+    padding: 20px 20px;
+    background: #fff;
+}
+.shopcart_content_box2 p{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.shopcart_content_box2>div{
+    display: flex;
+}
+.shopcart_content_box2 ul li{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 5px;
+    border: 1px solid #E5E5E5;
+}
+.shopcart_content_box2 ul li:hover .shopcart_content_box2_hover{
+    display: block;
+}
+.shopcart_content_box2_hover{
+    position: absolute;
+    display: none;
+    top: 0;
+    width: 152px;
+    text-align: center;
+    padding: 15px 0;
+    height: 122px;
+    background: rgba(0, 0, 0, 0.3)
+}
+.shopcart_content_box2_hover p{
+    height: 26px;
+    overflow: hidden;
+    text-align: center;
+}
+.shopcart_content_box2_hover p a{
+    font-size: 14px;
+    color: #fff;
+}
+.shopcart_content_box2_hover p:hover a{
+    text-decoration: underline;
+}
+.shopcart_content_box2_hover h5{
+    text-align: center;
+}
+.shopcart_content_box2_hover h5 a{
+    color: #FFFC00;
+}
+.shopcart_content_box2_hover input{
+    background: #C01A20 url(../images/shopChar/arr-white.png
+    ) no-repeat 95px 10px;
+    border: none;
+    width: 120px;
+    height: 31px;
+    margin:auto;
+    color: #fff;
+    border-radius: 5px;
+}
